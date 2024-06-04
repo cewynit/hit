@@ -15,7 +15,7 @@ async function connect() {
 }
 connect();
 app.use("/api", routerGetBank);
-const PORT = process.env.PORT || 9986;
+const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
   console.log("NodeJs is running PORT ", PORT);
 });
