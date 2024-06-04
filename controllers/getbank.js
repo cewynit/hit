@@ -49,7 +49,7 @@ export const getBank = async (req, res) => {
     }
     await new Promise((resolve) => setTimeout(resolve, 3000));
     bot
-      .sendMessage(idgr, messageNew || "Không có số mới ok 123")
+      .sendMessage(idgr, messageNew || "im mom")
       .then(() => {
         console.log("Message sent successfully!");
       })
